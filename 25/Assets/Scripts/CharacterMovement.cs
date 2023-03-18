@@ -76,7 +76,7 @@ public class CharacterMovement : MonoBehaviour
         }
         else
         {
-            rb.gravityScale = 3f;
+            rb.gravityScale = 4f;
         }
     }
 

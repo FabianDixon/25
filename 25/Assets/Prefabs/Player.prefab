@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8792018719870193094}
   - component: {fileID: 6040523432126420091}
   - component: {fileID: 7762913616048311234}
+  - component: {fileID: 1449174134043929903}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -122,7 +123,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 4
   m_Material: {fileID: 6200000, guid: 65420f12bb42344adbe6677e91af6b06, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -160,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b93aa2b7454f46bc93469fe7430294e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 600
   m_CrouchSpeed: 1
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -207,6 +208,22 @@ MonoBehaviour:
   rb: {fileID: 8371170781850084844}
   runSpeed: 30
   climbingSpeed: 8
+--- !u!114 &1449174134043929903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638532347420933470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66705b5a55cb4e30bafdf037d299fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  numCandles: 0
+  numPets: 0
+  numSlices: 0
 --- !u!1 &7687149859877547361
 GameObject:
   m_ObjectHideFlags: 0
